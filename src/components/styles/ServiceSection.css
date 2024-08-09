@@ -50,4 +50,17 @@
   .shadow {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra ligera */
   }
+  @media (max-width: 576px) {
+    .service-list .list-group-item,
+    .service-details .lead {
+      font-size: 0.9rem; /* Disminuir el tamaño de la fuente en móviles */
+    }
   
+    .p-4 {
+      padding: 1rem; /* Ajustar el padding en móviles */
+    }
+  
+    .text-dark-pink {
+      font-size: 1.2rem; /* Disminuir el tamaño de los títulos en móviles */
+    }
+  }

@@ -41,4 +41,24 @@
   .text-dark-pink {
     color: #d63384; /* Color personalizado para los títulos */
   }
+  @media (max-width: 576px) {
+    .faq-question h4 {
+      font-size: 1rem; /* Disminuir el tamaño de la fuente para las preguntas en móviles */
+    }
   
+    .toggle-icon {
+      font-size: 1.25rem; /* Ajustar el tamaño del ícono de toggle en móviles */
+    }
+  
+    .faq-answer {
+      font-size: 0.9rem; /* Disminuir el tamaño de la fuente para las respuestas en móviles */
+    }
+  
+    .p-5 {
+      padding: 1rem; /* Ajustar el padding en móviles */
+    }
+  
+    .text-dark-pink {
+      font-size: 1.2rem; /* Disminuir el tamaño de los títulos en móviles */
+    }
+  }

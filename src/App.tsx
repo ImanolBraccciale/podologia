@@ -6,10 +6,10 @@ import Services from './components/Services';
 import ServiceSection from './components/ServiceSection';
 
 function App() {
+  
   return (
-    <div className="App">
-      <div>asdasdasd</div>
-      <Banner />
+     <div className="App">
+       <Banner />
       <Services/>
       <ServiceSection/>
       <FAQSection/>

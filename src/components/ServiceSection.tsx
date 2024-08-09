@@ -33,7 +33,7 @@ const ServiceSection: React.FC = () => {
   };
 
   return (
-    <div className="service-section container-fluid p-5">
+    <div  id="services" className="service-section container-fluid p-5">
       <div className="row">
         <div className="col-md-4">
           <div className="service-list">
