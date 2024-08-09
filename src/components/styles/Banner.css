@@ -1,0 +1,68 @@
+/* src/components/Banner.css */
+
+.bg-light-pink {
+  background-color: #faf0f8; /* Rosa claro */
+}
+
+.text-dark-pink {
+  color: #d6336c; /* Rosa oscuro */
+}
+
+.btn-pink {
+  background-color: #ff6699 !important; /* Rosa fuerte */
+  border-color: #ff6699 !important;
+  color: #fff !important; /* Color del texto del botón */
+}
+
+.btn-pink:hover {
+  background-color: #ff3366 !important;
+  border-color: #ff3366 !important;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column; /* Por defecto, el contenido y la imagen estarán uno encima del otro */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+  border-radius: 15px; /* Bordes redondeados */
+}
+
+.banner-content {
+  text-align: center; /* Centra el texto */
+  margin-bottom: 20px; /* Espacio debajo del contenido */
+}
+
+.banner-image {
+  width: 100%;
+  max-width: 500px; /* Ancho máximo del contenedor de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  border-radius: 15px; /* Bordes redondeados */
+  overflow: hidden; /* Asegura que los bordes se mantengan redondeados */
+}
+
+.banner-image img {
+  width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionarse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+  .banner-container {
+    flex-direction: row; /* En pantallas grandes, el contenido y la imagen estarán uno al lado del otro */
+  }
+
+  .banner-content {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-bottom: 0; /* Elimina el margen inferior */
+    flex: 1; /* Permite que el contenido ocupe el espacio disponible */
+  }
+
+  .banner-image {
+    width: 50%; /* Ancho del contenedor de la imagen en pantallas grandes */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+}

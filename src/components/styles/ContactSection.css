@@ -1,0 +1,60 @@
+/* ContactSection.css */
+
+.contact-section {
+  background: linear-gradient(to top, #fff9fe, #fdf3fb, #fff9fe); 
+  }
+  
+  .contact-form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra ligera */
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form .form-control {
+    border-radius: 0.25rem;
+    box-shadow: inset 0 0 0.125rem rgba(0, 0, 0, 0.075);
+  }
+  
+  .contact-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .contact-form .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .whatsapp-link {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #25D366; /* Color verde característico de WhatsApp */
+  }
+  
+  .whatsapp-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .text-dark-pink {
+    color: #d63384; /* Color personalizado para los títulos */
+  }
+  

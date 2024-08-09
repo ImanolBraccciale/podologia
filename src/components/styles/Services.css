@@ -1,0 +1,28 @@
+.services-container {
+  background: linear-gradient(to top, #fff9fe, #fdf3fb, #fff9fe); 
+  }
+  
+  .service-card {
+    border-radius: 15px; /* Bordes redondeados para las tarjetas */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+  }
+  
+  .service-card img {
+    border-bottom: 1px solid #ddd; /* Línea separadora entre imagen y contenido */
+  }
+  
+  .service-card .card-body {
+    text-align: center; /* Centra el texto en la tarjeta */
+  }
+  
+  .btn-pink {
+    background-color: #ff6699 !important; /* Rosa fuerte */
+    border-color: #ff6699 !important;
+    color: #fff !important; /* Color del texto del botón */
+  }
+  
+  .btn-pink:hover {
+    background-color: #ff3366 !important;
+    border-color: #ff3366 !important;
+  }
+  

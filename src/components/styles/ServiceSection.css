@@ -1,0 +1,53 @@
+/* ServiceSection.css */
+
+.service-section {
+  background: linear-gradient(to top, #fff9fe, #fdf3fb, #fff9fe); 
+  }
+  
+  .service-list {
+    border-right: 1px solid #dee2e6; /* Línea de separación entre lista y detalles */
+  }
+  
+  .service-list .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para el cambio de color de fondo y texto */
+  }
+  
+  .service-list .list-group-item:hover {
+    background-color: #e9ecef; /* Color de fondo al pasar el mouse */
+  }
+  
+  .service-list .list-group-item.active {
+    background-color: #ff6699; /* Color de fondo para el elemento activo */
+    color: white; /* Color de texto para el elemento activo */
+  }
+  
+  .service-details {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el cambio de sombra y escala */
+  }
+  
+  .service-details:hover {
+    transform: scale(1.02); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el mouse */
+  }
+  
+  .text-dark-pink {
+    color: #d63384; /* Color personalizado para los títulos */
+  }
+  
+  .bg-light {
+    background-color: #ffffff; /* Fondo blanco para detalles del servicio */
+  }
+  
+  .p-4 {
+    padding: 1.5rem; /* Espaciado interno */
+  }
+  
+  .rounded {
+    border-radius: 0.25rem; /* Bordes redondeados */
+  }
+  
+  .shadow {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra ligera */
+  }
+  
