@@ -11,22 +11,27 @@ const faqs: FAQ[] = [
   {
     id: 1,
     question: "¿Qué servicios ofrecen?",
-    answer: "Ofrecemos una variedad de servicios, incluyendo consultas iniciales, tratamientos de callos y cuidado de uñas. Puedes ver todos nuestros servicios en la sección de Servicios de nuestro sitio web."
+    answer: "Ofrecemos una variedad de servicios, incluyendo consultas iniciales, tratamientos de callos, Reflexología y cuidado de uñas. Puedes ver todos nuestros servicios en la sección de Servicios de nuestro sitio web."
   },
   {
     id: 2,
     question: "¿Cómo puedo agendar una cita?",
-    answer: "Puedes agendar una cita en línea a través de nuestra página de reservas. Selecciona el servicio que deseas y elige una fecha y hora disponible."
+    answer: "Puedes agendar una cita en línea a través de nuestra página tocando Reservar lo cual le redirigirá a mi chat de WhatsApp para cordinar un turno."
   },
   {
     id: 3,
-    question: "¿Aceptan seguros?",
-    answer: "Actualmente no aceptamos seguros. Aceptamos pagos en efectivo, tarjetas de crédito y débito."
+    question: "¿Esto tiene solución?",
+    answer: "Todo tiene solución, siempre trabjao sobre la uña y su crecimiento, nunca la extraigo"
   },
   {
     id: 4,
     question: "¿Cuánto dura una cita promedio?",
-    answer: "La duración de una cita varía según el servicio. Por ejemplo, una consulta inicial puede durar aproximadamente 30 minutos, mientras que un tratamiento de callos puede durar hasta 60 minutos."
+    answer: "La duración de una cita varía según el servicio. En promedio puede durar aproximadamente 60 minutos a 90 minutos dependiendo del caso"
+  },
+  {
+    id: 5,
+    question: "¿Qué estudios posee?",
+    answer: "Certificado GALENO en Consultoría Internacional Publico Privada con especialización en Microbiología en Podología con mtr 22-0124"
   }
 ];
 

@@ -11,17 +11,22 @@ const services: Service[] = [
   {
     id: 1,
     title: "Consulta Inicial",
-    description: "La consulta inicial es fundamental para evaluar el estado de tus pies. En esta cita, nuestro equipo realizará un examen completo para diagnosticar cualquier problema o condición. Te proporcionaremos recomendaciones y un plan de tratamiento personalizado para tus necesidades."
+    description: "La consulta inicial es fundamental para evaluar el estado de tus pies. En esta cita, realizaré un examen completo para diagnosticar cualquier problema o condición. Te proporcionaré recomendaciones y un plan de tratamiento personalizado para tus necesidades."
   },
   {
     id: 2,
     title: "Tratamiento de Callos",
-    description: "Ofrecemos tratamientos especializados para eliminar callos y durezas, aliviando el dolor y mejorando la comodidad. Utilizamos técnicas y productos de alta calidad para asegurar resultados efectivos y duraderos."
+    description: "Ofrezco tratamientos especializados para separar callos de uñas, Onicomicosis, aliviando el dolor y mejorando la comodidad de tus pies. Utilizo técnicas y productos de alta calidad para asegurar resultados efectivos y duraderos."
   },
   {
     id: 3,
     title: "Cuidado de Uñas",
-    description: "El cuidado de las uñas es crucial para evitar problemas como infecciones y uñas encarnadas. En nuestra clínica, realizamos servicios de corte, limado y tratamiento para mantener tus uñas saludables y libres de infecciones."
+    description: "El cuidado de las uñas es crucial para evitar problemas como infecciones, Microniquia, uñas pálidas y uñas encarnadas. En mi salón, realizaré servicios de corte, limado y tratamiento para mantener tus uñas saludables y libres de infecciones."
+  },
+  {
+    id: 4,
+    title: "Reflexología",
+    description: "La reflexología es una técnica terapéutica que se basa en la aplicación de presión en puntos específicos de los pies para estimular diversas partes del cuerpo. Este tratamiento no solo alivia el estrés, sino que también mejora la circulación sanguínea y promueve un equilibrio general del cuerpo. Es ideal para quienes buscan un enfoque natural para mejorar su salud y bienestar."
   }
 ];
 

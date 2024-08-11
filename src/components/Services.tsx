@@ -16,13 +16,18 @@ const services: Service[] = [
   },
   {
     title: 'Tratamiento de Callos',
-    description: 'Tratamiento especializado para eliminar callos y durezas, mejorando tu comodidad al caminar.',
+    description: 'Tratamiento especializado para eliminar callos,verrugas plantales y durezas, mejorando tu comodidad al caminar.',
     imageUrl: 'image.png'
   },
   {
     title: 'Cuidado de Uñas',
-    description: 'Servicios de manicura y pedicura para mantener tus uñas saludables y bien cuidadas.',
+    description: 'Servicios podologicos para mantener un pie saludable y bien cuidado.',
     imageUrl: 'uñas.png'
+  },
+  {
+    title: 'Reflexología',
+    description: 'Un tratamiento holístico que estimula puntos específicos en los pies para mejorar la salud y el bienestar general.',
+    imageUrl: 'reflexologia.jpg'
   }
 ];
 
@@ -38,7 +43,7 @@ const Services: React.FC = () => {
               <div className="card-body">
                 <h5 className="card-title">{service.title}</h5>
                 <p className="card-text">{service.description}</p>
-                <a href="#book" className="btn btn-pink">Reservar</a>
+                <a href="https://wa.me/+543388677861" className="btn btn-pink">Reservar</a>
               </div>
             </div>
           </div>

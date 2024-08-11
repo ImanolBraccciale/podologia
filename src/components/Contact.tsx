@@ -26,7 +26,7 @@ const ContactSection: React.FC = () => {
     <div className="contact-section container-fluid p-5">
       <div className="row">
         <div className="col-md-6">
-          <h3 className="text-dark-pink">Contáctanos</h3>
+          <h3 className="text-dark-pink">Contáctame</h3>
           <form onSubmit={handleSubmit} className="contact-form">
             <div className="form-group">
               <label htmlFor="name">Nombre</label>
@@ -71,12 +71,12 @@ const ContactSection: React.FC = () => {
         <div className="col-md-6">
           <h3 className="text-dark-pink">Información de Contacto</h3>
           <ul className="contact-info">
-            <li><strong>Dirección:</strong> Calle Ejemplo 123, Ciudad, País</li>
-            <li><strong>Teléfono:</strong> +123 456 7890</li>
-            <li><strong>Correo Electrónico:</strong> contacto@ejemplo.com</li>
-            <li><strong>Horario:</strong> Lunes a Viernes, 9:00 - 18:00</li>
+            <li><strong>Dirección:</strong> Belgrano 272,General Villegas            </li>
+            <li><strong>Teléfono:</strong> +54 3388677861</li>
+            <li><strong>Correo Electrónico:</strong> mariaeugeniacapitanelli@gmail.com</li>
+            <li><strong>Horario:</strong> Horarios a convenir.</li>
           </ul>
-          <a href="https://wa.me/1234567890" className="whatsapp-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/+543388677861" className="whatsapp-link" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faWhatsapp} size="2x" className="whatsapp-icon" />
             Contacta con nosotros en WhatsApp
           </a>
