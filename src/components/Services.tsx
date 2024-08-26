@@ -43,7 +43,7 @@ const Services: React.FC = () => {
               <div className="card-body">
                 <h5 className="card-title">{service.title}</h5>
                 <p className="card-text">{service.description}</p>
-                <a href="https://wa.me/+543388677861" className="btn btn-pink">Reservar</a>
+                <a href="https://wa.me/+5412345678" className="btn btn-pink">Reservar</a>
               </div>
             </div>
           </div>

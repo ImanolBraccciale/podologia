@@ -71,12 +71,12 @@ const ContactSection: React.FC = () => {
         <div className="col-md-6">
           <h3 className="text-dark-pink">Información de Contacto</h3>
           <ul className="contact-info">
-            <li><strong>Dirección:</strong> Belgrano 272,General Villegas            </li>
-            <li><strong>Teléfono:</strong> +54 3388677861</li>
-            <li><strong>Correo Electrónico:</strong> mariaeugeniacapitanelli@gmail.com</li>
+            <li><strong>Dirección:</strong> calle 123, ciudad            </li>
+            <li><strong>Teléfono:</strong> +1 234556789</li>
+            <li><strong>Correo Electrónico:</strong> </li>
             <li><strong>Horario:</strong> Horarios a convenir.</li>
           </ul>
-          <a href="https://wa.me/+543388677861" className="whatsapp-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/+123455677" className="whatsapp-link" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faWhatsapp} size="2x" className="whatsapp-icon" />
             Contacta con nosotros en WhatsApp
           </a>
